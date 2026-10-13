@@ -1,0 +1,42 @@
+{
+  "name": "@falling-ts/pi-start-command",
+  "version": "0.1.0",
+  "description": "会话开始前运行一条配置好的启动命令（PI_START_COMMAND）",
+  "type": "module",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "author": "falling-ts <zgh.yuanshang@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/falling-ts/pi-start-command.git"
+  },
+  "homepage": "https://github.com/falling-ts/pi-start-command#readme",
+  "bugs": {
+    "url": "https://github.com/falling-ts/pi-start-command/issues"
+  },
+  "keywords": [
+    "pi-package",
+    "pi",
+    "pi-extension",
+    "pi-coding-agent",
+    "start-command",
+    "hook"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "pi": {
+    "extensions": ["./index.ts"]
+  },
+  "files": [
+    "index.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
